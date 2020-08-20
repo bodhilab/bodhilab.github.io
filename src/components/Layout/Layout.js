@@ -10,7 +10,7 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage? :string
+  socialImage?: string
 };
 
 const Layout = ({
@@ -35,6 +35,7 @@ const Layout = ({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
+        <meta name="google-site-verification" content="Ps1xYCkBHpCPwshOnosZuZDgwyVO2nt8FlM4psHQjDg" />
       </Helmet>
       {children}
     </div>
